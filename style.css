@@ -1,0 +1,391 @@
+body{
+    min-width: 1224px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+  }
+
+  .subrayado{
+    display:flex;
+  }
+
+  .btn-iniciar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 0;
+    top: 20rem;
+    
+     
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+  
+    
+   color: #FFFFFF;
+  
+  }
+
+
+  .btn-iniciar{
+    animation: movimiento 2.5s linear infinite;
+  }
+  
+
+
+  .btn-palabra{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 1.2rem;
+    top: 28rem; 
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #0A3871;
+    }
+
+    .btn-palabra{
+      animation: movimiento 2.5s linear infinite;
+    }
+
+    .text-input {
+        /* Digite seu texto */
+      
+        position: absolute;
+        width: 600px;
+        height: auto;
+        left: 1.5rem;
+        top: 200px;
+      
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 150%;
+        justify-content: baseline;
+        /* identical to box height, or 48px */
+       
+      
+        /* Dark blue/dark-blue-300 */
+      
+        color: #0A3871;
+        background: transparent;
+        border: none;
+        text-transform:uppercase;
+        }
+      ::placeholder { color: #0A3871; text-transform:lowercase;}
+      
+      .text-input:focus { 
+          border: none;
+          outline: none;
+         }
+
+
+  .logo{
+    position: absolute;
+    left: 50px;
+    right: 37.43%;
+    top: 50px;
+    bottom: 0%;
+    width: 50px;
+    height:50px;
+  }
+  .img-alerta{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  
+  }
+
+  label {
+    flex-direction: row;
+    position: static;
+    width: 300px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    padding-left: 25px;
+    font-weight: 600;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-size:18px;
+    line-height: 100%;
+  
+    /* identical to box height, or 18px */
+    
+    
+    /* Gray/gray-300 */
+    color: #495057;
+   }
+
+   .form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 2rem;
+    top: 41rem;
+   }
+
+   .botones-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 0;
+    top: 43rem;
+   }
+
+ 
+   .btn-azul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+  
+    background: #0A3871;
+    border-radius: 24px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    justify-content: center; 
+  
+  }
+
+  .btn-blanco{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+  
+    /* Light gray */
+  
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+  
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+  
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    justify-content: center;
+  }
+
+  .canvas{
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px
+  }
+
+  .botones-div-canvas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 18.5rem;
+    top: 760px;
+    margin-bottom: 25px;
+   }
+
+  .botones-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 32rem;
+   }
+
+   .palabra-nueva{
+    position: absolute;
+    left: 20rem;
+   }
+
+   .burbuja{
+    border-radius: 50%;
+    background: #495057;
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+
+    animation: burbujas 3s linear infinite;
+   }
+
+   .burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+   }
+
+   .burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+   }
+
+   .burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+   }
+
+   .burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+   }
+
+   .burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+   }
+
+   .burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+   }
+
+   .burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+   }
+
+   .burbuja:nth-child(8){
+    width: 100px;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+   }
+
+   .burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+   }
+
+   .burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+   }
+
+   @keyframes burbujas{
+      0%{
+        bottom: 0;
+        opacity: 0;
+      }
+      30%{
+        transform: translateX(30px);
+      }
+      50%{
+        opacity: .4;
+      }
+      100%{
+        bottom: 100vh;
+        opacity: 0;
+      }
+   }
+
+
+   @keyframes movimiento{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(30px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+   }
